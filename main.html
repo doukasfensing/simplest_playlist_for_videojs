@@ -1,0 +1,41 @@
+<head>
+    <base target="_parent">
+    <link href="https://vjs.zencdn.net/7.0.5/video-js.css" rel="stylesheet">
+
+    <script src='videojs.playlist.js'></script>
+    <link href="videojs.playlist.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/letsStyle.css" />
+    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+    <script src="http://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
+</head>
+
+<body>
+
+
+
+    <div class='dropdown'>
+        <button class='dropbtn'>Season 1</button>
+        <div class='dropdown-content' target='player'>
+            <a href='Path_to_your_file Path_to_your_file or http//... .mp4etc' target='iframe_a'><h1>Link 1</h1></a>
+            <a href='Path_to_your_file or http//... .mp4etc' target='iframe_a'>
+                <h1>Link 2</h1>
+            </a>
+          <!--If you want to add more tracks simply copy the <a></a> part of the code.-->
+        </div>
+    </div>
+
+
+    <!--<video id="my-video" class="video-js" controls preload="auto" width="640" height="264" poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+  
+  
+    <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a web browser that
+    <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+    </video>-->
+
+    <iframe src="player.html" name="iframe_a" width="640" height="264"></iframe>
+
+    <script src="https://vjs.zencdn.net/7.0.5/video.js"></script>
+</body>
